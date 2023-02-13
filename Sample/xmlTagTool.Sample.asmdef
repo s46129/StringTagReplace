@@ -1,0 +1,16 @@
+{
+    "name": "xmlTagTool.Sample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:af89fb33b75c04b4ebe05e694c01e6c5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
