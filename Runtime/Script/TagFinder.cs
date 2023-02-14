@@ -1,9 +1,11 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
-namespace StringTagReplace.Runtime
+namespace StringTagReplace.Runtime.Script
 {
-    public class TagFinder
+    public static class TagFinder
     {
         public static void MatchTag(string dataText)
         {

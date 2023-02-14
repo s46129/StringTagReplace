@@ -1,5 +1,5 @@
 ﻿using Sirenix.OdinInspector;
-using StringTagReplace.Runtime;
+using StringTagReplace.Runtime.Script;
 using UnityEngine;
 
 namespace Sample.Script
