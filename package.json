@@ -1,15 +1,14 @@
 {
   "name": "com.rex.xmltagtools",
-  "version": "0.0.1",
-  "displayName": "XML Tag Tool",
-  "description": "XML Tag Tool",
+  "version": "0.0.2",
+  "displayName": "Tag Tool",
+  "description": "尋找字串中的標籤，並且將其複寫為指定的key",
   "unity": "2021.1",
   "unityRelease": "0b5",
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html",
   "licensesUrl": "https://example.com/licensing.html",
   "keywords": [
-    "XML",
     "Tag",
     "Replace"
   ],

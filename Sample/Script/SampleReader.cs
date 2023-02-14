@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using Sirenix.OdinInspector;
+using StringTagReplace.Runtime;
 using UnityEngine;
 
 namespace Sample.Script
@@ -7,20 +8,12 @@ namespace Sample.Script
     {
         [SerializeField] private TextAsset data;
 
-        private void Start()
+        [Button]
+        private void Test()
         {
             string dataText = data.text;
 
-            string pattern = @"<button=(\d+)>";
-
-            Match match = Regex.Match(dataText, pattern);
-            if (match.Success)
-            {
-                foreach (Group matchGroup in match.Groups)
-                {
-                    Debug.Log($"{matchGroup.Name} : {matchGroup.Value}");
-                }
-            }
+            TagFinder.MatchTag(dataText);
         }
     }
 }

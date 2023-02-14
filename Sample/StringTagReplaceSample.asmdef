@@ -1,9 +1,7 @@
 {
-    "name": "xmlTagTool.Sample",
+    "name": "StringTagReplaceSample",
     "rootNamespace": "",
-    "references": [
-        "GUID:af89fb33b75c04b4ebe05e694c01e6c5"
-    ],
+    "references": ["GUID:2e0816479368c57458173c910d349700"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
