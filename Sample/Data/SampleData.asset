@@ -15,3 +15,5 @@ MonoBehaviour:
   dictionary:
   - key: <button=10>
     value: <sprite=1>
+  - key: <button=4>
+    value: <sprite=4>
